@@ -1,0 +1,46 @@
+.full-width {
+	width: 100%;
+}
+
+.full-height {
+	height: 100%;
+}
+
+.align-items-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.color--white {
+	color: $color--white;
+}
+
+.text-bold {
+	font-weight: bold;
+}
+
+.text-align-center {
+	text-align: center;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.white-space-pre-line {
+	white-space: pre-line;
+}
+
+.ellipsis-one-line {
+	@include ellipsisInLines(1);
+}
+
+.bg-white {
+	background-color: white;
+}
